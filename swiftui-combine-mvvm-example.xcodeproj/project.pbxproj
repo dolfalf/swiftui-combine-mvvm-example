@@ -20,6 +20,11 @@
 		403988E329CF1AFC00717928 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 403988E229CF1AFC00717928 /* sample.png */; };
 		403988E829CF1C9B00717928 /* RateTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E729CF1C9B00717928 /* RateTextView.swift */; };
 		403988EA29CF214900717928 /* RateSubTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E929CF214900717928 /* RateSubTextView.swift */; };
+		403988ED29CFD0DB00717928 /* RoundedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988EC29CFD0DB00717928 /* RoundedModifier.swift */; };
+		403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988EE29CFD11D00717928 /* ShadowModifier.swift */; };
+		403988F229CFD1E100717928 /* Style+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F129CFD1E100717928 /* Style+Extensions.swift */; };
+		403988F429CFD38500717928 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F329CFD38500717928 /* FontModifier.swift */; };
+		403988F829CFD91D00717928 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988F729CFD91D00717928 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		403988E229CF1AFC00717928 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 		403988E729CF1C9B00717928 /* RateTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTextView.swift; sourceTree = "<group>"; };
 		403988E929CF214900717928 /* RateSubTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateSubTextView.swift; sourceTree = "<group>"; };
+		403988EC29CFD0DB00717928 /* RoundedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedModifier.swift; sourceTree = "<group>"; };
+		403988EE29CFD11D00717928 /* ShadowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowModifier.swift; sourceTree = "<group>"; };
+		403988F129CFD1E100717928 /* Style+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Style+Extensions.swift"; sourceTree = "<group>"; };
+		403988F329CFD38500717928 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		403988F729CFD91D00717928 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +119,9 @@
 				403988D729CF126400717928 /* presentation */,
 				403988AD29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift */,
 				403988B129CF119A00717928 /* Assets.xcassets */,
-				403988B329CF119A00717928 /* Preview Content */,
+				403988F729CFD91D00717928 /* Colors.xcassets */,
 				403988DD29CF161200717928 /* Images.xcassets */,
+				403988B329CF119A00717928 /* Preview Content */,
 			);
 			path = "swiftui-combine-mvvm-example";
 			sourceTree = "<group>";
@@ -144,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				403988E229CF1AFC00717928 /* sample.png */,
+				403988F029CFD1C500717928 /* extensions */,
+				403988EB29CFD0AC00717928 /* modifiers */,
 				403988D929CF146E00717928 /* compoments */,
 				403988D829CF127100717928 /* views */,
 			);
@@ -207,6 +220,24 @@
 			children = (
 			);
 			path = organisms;
+			sourceTree = "<group>";
+		};
+		403988EB29CFD0AC00717928 /* modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				403988F329CFD38500717928 /* FontModifier.swift */,
+				403988EC29CFD0DB00717928 /* RoundedModifier.swift */,
+				403988EE29CFD11D00717928 /* ShadowModifier.swift */,
+			);
+			path = modifiers;
+			sourceTree = "<group>";
+		};
+		403988F029CFD1C500717928 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				403988F129CFD1E100717928 /* Style+Extensions.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403988F829CFD91D00717928 /* Colors.xcassets in Resources */,
 				403988DE29CF161200717928 /* Images.xcassets in Resources */,
 				403988B529CF119A00717928 /* Preview Assets.xcassets in Resources */,
 				403988B229CF119A00717928 /* Assets.xcassets in Resources */,
@@ -342,10 +374,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				403988B029CF119900717928 /* ContentView.swift in Sources */,
+				403988F229CFD1E100717928 /* Style+Extensions.swift in Sources */,
 				403988AE29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
 				403988EA29CF214900717928 /* RateSubTextView.swift in Sources */,
 				403988DC29CF14A900717928 /* RateListView.swift in Sources */,
+				403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */,
 				403988E129CF172700717928 /* ArticleListView.swift in Sources */,
+				403988F429CFD38500717928 /* FontModifier.swift in Sources */,
+				403988ED29CFD0DB00717928 /* RoundedModifier.swift in Sources */,
 				403988E829CF1C9B00717928 /* RateTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

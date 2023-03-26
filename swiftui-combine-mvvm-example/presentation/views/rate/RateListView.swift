@@ -9,7 +9,20 @@ import SwiftUI
 
 struct RateListView: View {
     var body: some View {
-        Text("RateView")
+        ZStack {
+            Color.subColor
+
+            VStack {
+                // 共通部品テスト
+                Text("RateView")
+                    .padding()
+                    .background(Color.accentGreen)
+                    .foregroundColor(Color.mainColor)
+                    .rounded()
+                    .shadowed()
+                    .overlayWithBorder(2, color: Color.accentBlue)
+            }
+        }
     }
 }
 
