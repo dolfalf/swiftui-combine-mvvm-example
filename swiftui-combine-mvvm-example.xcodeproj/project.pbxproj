@@ -25,6 +25,39 @@
 		403988F229CFD1E100717928 /* Style+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F129CFD1E100717928 /* Style+Extensions.swift */; };
 		403988F429CFD38500717928 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F329CFD38500717928 /* FontModifier.swift */; };
 		403988F829CFD91D00717928 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988F729CFD91D00717928 /* Colors.xcassets */; };
+		4039890129CFE1E400717928 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039890029CFE1E400717928 /* constants.swift */; };
+		4039890429CFE22500717928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988AF29CF119900717928 /* ContentView.swift */; };
+		4039890529CFE22500717928 /* Style+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F129CFD1E100717928 /* Style+Extensions.swift */; };
+		4039890629CFE22500717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988AD29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift */; };
+		4039890729CFE22500717928 /* RateSubTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E929CF214900717928 /* RateSubTextView.swift */; };
+		4039890929CFE22500717928 /* RateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988DB29CF14A900717928 /* RateListView.swift */; };
+		4039890A29CFE22500717928 /* ShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988EE29CFD11D00717928 /* ShadowModifier.swift */; };
+		4039890B29CFE22500717928 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E029CF172700717928 /* ArticleListView.swift */; };
+		4039890C29CFE22500717928 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F329CFD38500717928 /* FontModifier.swift */; };
+		4039890D29CFE22500717928 /* RoundedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988EC29CFD0DB00717928 /* RoundedModifier.swift */; };
+		4039890E29CFE22500717928 /* RateTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E729CF1C9B00717928 /* RateTextView.swift */; };
+		4039891129CFE22500717928 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988F729CFD91D00717928 /* Colors.xcassets */; };
+		4039891229CFE22500717928 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988DD29CF161200717928 /* Images.xcassets */; };
+		4039891329CFE22500717928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988B429CF119A00717928 /* Preview Assets.xcassets */; };
+		4039891429CFE22500717928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988B129CF119A00717928 /* Assets.xcassets */; };
+		4039891529CFE22500717928 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 403988E229CF1AFC00717928 /* sample.png */; };
+		4039891C29CFE22700717928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988AF29CF119900717928 /* ContentView.swift */; };
+		4039891D29CFE22700717928 /* Style+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F129CFD1E100717928 /* Style+Extensions.swift */; };
+		4039891E29CFE22700717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988AD29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift */; };
+		4039891F29CFE22700717928 /* RateSubTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E929CF214900717928 /* RateSubTextView.swift */; };
+		4039892129CFE22700717928 /* RateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988DB29CF14A900717928 /* RateListView.swift */; };
+		4039892229CFE22700717928 /* ShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988EE29CFD11D00717928 /* ShadowModifier.swift */; };
+		4039892329CFE22700717928 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E029CF172700717928 /* ArticleListView.swift */; };
+		4039892429CFE22700717928 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988F329CFD38500717928 /* FontModifier.swift */; };
+		4039892529CFE22700717928 /* RoundedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988EC29CFD0DB00717928 /* RoundedModifier.swift */; };
+		4039892629CFE22700717928 /* RateTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403988E729CF1C9B00717928 /* RateTextView.swift */; };
+		4039892929CFE22700717928 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988F729CFD91D00717928 /* Colors.xcassets */; };
+		4039892A29CFE22700717928 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988DD29CF161200717928 /* Images.xcassets */; };
+		4039892B29CFE22700717928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988B429CF119A00717928 /* Preview Assets.xcassets */; };
+		4039892C29CFE22700717928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403988B129CF119A00717928 /* Assets.xcassets */; };
+		4039892D29CFE22700717928 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 403988E229CF1AFC00717928 /* sample.png */; };
+		4039893329CFE28D00717928 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039893229CFE28D00717928 /* constants.swift */; };
+		4039893629CFE2B600717928 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039893529CFE2B600717928 /* constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		403988AA29CF119900717928 /* swiftui-combine-mvvm-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine-mvvm-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403988AA29CF119900717928 /* swiftui-combine-mvvm-example-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine-mvvm-example-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		403988AD29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_combine_mvvm_exampleApp.swift; sourceTree = "<group>"; };
 		403988AF29CF119900717928 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		403988B129CF119A00717928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +99,11 @@
 		403988F129CFD1E100717928 /* Style+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Style+Extensions.swift"; sourceTree = "<group>"; };
 		403988F329CFD38500717928 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
 		403988F729CFD91D00717928 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4039890029CFE1E400717928 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		4039891929CFE22500717928 /* swiftui-combine-mvvm-example-stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine-mvvm-example-stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039893129CFE22700717928 /* swiftui-combine-mvvm-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine-mvvm-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039893229CFE28D00717928 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		4039893529CFE2B600717928 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +128,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4039890F29CFE22500717928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039892729CFE22700717928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -106,9 +158,11 @@
 		403988AB29CF119900717928 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				403988AA29CF119900717928 /* swiftui-combine-mvvm-example.app */,
+				403988AA29CF119900717928 /* swiftui-combine-mvvm-example-dev.app */,
 				403988BA29CF119A00717928 /* swiftui-combine-mvvm-exampleTests.xctest */,
 				403988C429CF119A00717928 /* swiftui-combine-mvvm-exampleUITests.xctest */,
+				4039891929CFE22500717928 /* swiftui-combine-mvvm-example-stg.app */,
+				4039893129CFE22700717928 /* swiftui-combine-mvvm-example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +170,10 @@
 		403988AC29CF119900717928 /* swiftui-combine-mvvm-example */ = {
 			isa = PBXGroup;
 			children = (
+				403988FC29CFE17100717928 /* environment */,
+				403988FB29CFE16A00717928 /* infra */,
+				403988FA29CFE16600717928 /* data */,
+				403988F929CFE15E00717928 /* domain */,
 				403988D729CF126400717928 /* presentation */,
 				403988AD29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift */,
 				403988B129CF119A00717928 /* Assets.xcassets */,
@@ -240,12 +298,99 @@
 			path = extensions;
 			sourceTree = "<group>";
 		};
+		403988F929CFE15E00717928 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				4039893829CFE32200717928 /* repository */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		403988FA29CFE16600717928 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4039893A29CFE35300717928 /* datasource */,
+				4039893929CFE33D00717928 /* repositoryImpl */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		403988FB29CFE16A00717928 /* infra */ = {
+			isa = PBXGroup;
+			children = (
+				4039893729CFE30300717928 /* api */,
+			);
+			path = infra;
+			sourceTree = "<group>";
+		};
+		403988FC29CFE17100717928 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				403988FD29CFE19100717928 /* dev */,
+				403988FE29CFE19600717928 /* stg */,
+				403988FF29CFE19B00717928 /* prod */,
+			);
+			path = environment;
+			sourceTree = "<group>";
+		};
+		403988FD29CFE19100717928 /* dev */ = {
+			isa = PBXGroup;
+			children = (
+				4039890029CFE1E400717928 /* constants.swift */,
+			);
+			path = dev;
+			sourceTree = "<group>";
+		};
+		403988FE29CFE19600717928 /* stg */ = {
+			isa = PBXGroup;
+			children = (
+				4039893229CFE28D00717928 /* constants.swift */,
+			);
+			path = stg;
+			sourceTree = "<group>";
+		};
+		403988FF29CFE19B00717928 /* prod */ = {
+			isa = PBXGroup;
+			children = (
+				4039893529CFE2B600717928 /* constants.swift */,
+			);
+			path = prod;
+			sourceTree = "<group>";
+		};
+		4039893729CFE30300717928 /* api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		4039893829CFE32200717928 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		4039893929CFE33D00717928 /* repositoryImpl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repositoryImpl;
+			sourceTree = "<group>";
+		};
+		4039893A29CFE35300717928 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		403988A929CF119900717928 /* swiftui-combine-mvvm-example */ = {
+		403988A929CF119900717928 /* swiftui-combine-mvvm-example-dev */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 403988CE29CF119A00717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example" */;
+			buildConfigurationList = 403988CE29CF119A00717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example-dev" */;
 			buildPhases = (
 				403988A629CF119900717928 /* Sources */,
 				403988A729CF119900717928 /* Frameworks */,
@@ -255,9 +400,9 @@
 			);
 			dependencies = (
 			);
-			name = "swiftui-combine-mvvm-example";
+			name = "swiftui-combine-mvvm-example-dev";
 			productName = "swiftui-combine-mvvm-example";
-			productReference = 403988AA29CF119900717928 /* swiftui-combine-mvvm-example.app */;
+			productReference = 403988AA29CF119900717928 /* swiftui-combine-mvvm-example-dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		403988B929CF119A00717928 /* swiftui-combine-mvvm-exampleTests */ = {
@@ -296,6 +441,40 @@
 			productReference = 403988C429CF119A00717928 /* swiftui-combine-mvvm-exampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4039890229CFE22500717928 /* swiftui-combine-mvvm-example-stg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4039891629CFE22500717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example-stg" */;
+			buildPhases = (
+				4039890329CFE22500717928 /* Sources */,
+				4039890F29CFE22500717928 /* Frameworks */,
+				4039891029CFE22500717928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-combine-mvvm-example-stg";
+			productName = "swiftui-combine-mvvm-example";
+			productReference = 4039891929CFE22500717928 /* swiftui-combine-mvvm-example-stg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4039891A29CFE22700717928 /* swiftui-combine-mvvm-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4039892E29CFE22700717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example" */;
+			buildPhases = (
+				4039891B29CFE22700717928 /* Sources */,
+				4039892729CFE22700717928 /* Frameworks */,
+				4039892829CFE22700717928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-combine-mvvm-example";
+			productName = "swiftui-combine-mvvm-example";
+			productReference = 4039893129CFE22700717928 /* swiftui-combine-mvvm-example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -332,7 +511,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				403988A929CF119900717928 /* swiftui-combine-mvvm-example */,
+				403988A929CF119900717928 /* swiftui-combine-mvvm-example-dev */,
+				4039890229CFE22500717928 /* swiftui-combine-mvvm-example-stg */,
+				4039891A29CFE22700717928 /* swiftui-combine-mvvm-example */,
 				403988B929CF119A00717928 /* swiftui-combine-mvvm-exampleTests */,
 				403988C329CF119A00717928 /* swiftui-combine-mvvm-exampleUITests */,
 			);
@@ -366,6 +547,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4039891029CFE22500717928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039891129CFE22500717928 /* Colors.xcassets in Resources */,
+				4039891229CFE22500717928 /* Images.xcassets in Resources */,
+				4039891329CFE22500717928 /* Preview Assets.xcassets in Resources */,
+				4039891429CFE22500717928 /* Assets.xcassets in Resources */,
+				4039891529CFE22500717928 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039892829CFE22700717928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039892929CFE22700717928 /* Colors.xcassets in Resources */,
+				4039892A29CFE22700717928 /* Images.xcassets in Resources */,
+				4039892B29CFE22700717928 /* Preview Assets.xcassets in Resources */,
+				4039892C29CFE22700717928 /* Assets.xcassets in Resources */,
+				4039892D29CFE22700717928 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,6 +582,7 @@
 				403988F229CFD1E100717928 /* Style+Extensions.swift in Sources */,
 				403988AE29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
 				403988EA29CF214900717928 /* RateSubTextView.swift in Sources */,
+				4039890129CFE1E400717928 /* constants.swift in Sources */,
 				403988DC29CF14A900717928 /* RateListView.swift in Sources */,
 				403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */,
 				403988E129CF172700717928 /* ArticleListView.swift in Sources */,
@@ -403,17 +609,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4039890329CFE22500717928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039890429CFE22500717928 /* ContentView.swift in Sources */,
+				4039890529CFE22500717928 /* Style+Extensions.swift in Sources */,
+				4039890629CFE22500717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
+				4039890729CFE22500717928 /* RateSubTextView.swift in Sources */,
+				4039890929CFE22500717928 /* RateListView.swift in Sources */,
+				4039890A29CFE22500717928 /* ShadowModifier.swift in Sources */,
+				4039890B29CFE22500717928 /* ArticleListView.swift in Sources */,
+				4039890C29CFE22500717928 /* FontModifier.swift in Sources */,
+				4039890D29CFE22500717928 /* RoundedModifier.swift in Sources */,
+				4039890E29CFE22500717928 /* RateTextView.swift in Sources */,
+				4039893329CFE28D00717928 /* constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039891B29CFE22700717928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039891C29CFE22700717928 /* ContentView.swift in Sources */,
+				4039891D29CFE22700717928 /* Style+Extensions.swift in Sources */,
+				4039891E29CFE22700717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
+				4039891F29CFE22700717928 /* RateSubTextView.swift in Sources */,
+				4039893629CFE2B600717928 /* constants.swift in Sources */,
+				4039892129CFE22700717928 /* RateListView.swift in Sources */,
+				4039892229CFE22700717928 /* ShadowModifier.swift in Sources */,
+				4039892329CFE22700717928 /* ArticleListView.swift in Sources */,
+				4039892429CFE22700717928 /* FontModifier.swift in Sources */,
+				4039892529CFE22700717928 /* RoundedModifier.swift in Sources */,
+				4039892629CFE22700717928 /* RateTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		403988BC29CF119A00717928 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 403988A929CF119900717928 /* swiftui-combine-mvvm-example */;
+			target = 403988A929CF119900717928 /* swiftui-combine-mvvm-example-dev */;
 			targetProxy = 403988BB29CF119A00717928 /* PBXContainerItemProxy */;
 		};
 		403988C629CF119A00717928 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 403988A929CF119900717928 /* swiftui-combine-mvvm-example */;
+			target = 403988A929CF119900717928 /* swiftui-combine-mvvm-example-dev */;
 			targetProxy = 403988C529CF119A00717928 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -667,6 +909,122 @@
 			};
 			name = Release;
 		};
+		4039891729CFE22500717928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-combine-mvvm-example/Preview Content\"";
+				DEVELOPMENT_TEAM = QN8T3L2FUY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.shinatomo.swiftui-combine-mvvm-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4039891829CFE22500717928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-combine-mvvm-example/Preview Content\"";
+				DEVELOPMENT_TEAM = QN8T3L2FUY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.shinatomo.swiftui-combine-mvvm-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4039892F29CFE22700717928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-combine-mvvm-example/Preview Content\"";
+				DEVELOPMENT_TEAM = QN8T3L2FUY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.shinatomo.swiftui-combine-mvvm-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4039893029CFE22700717928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-combine-mvvm-example/Preview Content\"";
+				DEVELOPMENT_TEAM = QN8T3L2FUY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.shinatomo.swiftui-combine-mvvm-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -679,7 +1037,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		403988CE29CF119A00717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example" */ = {
+		403988CE29CF119A00717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example-dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				403988CF29CF119A00717928 /* Debug */,
@@ -702,6 +1060,24 @@
 			buildConfigurations = (
 				403988D529CF119A00717928 /* Debug */,
 				403988D629CF119A00717928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4039891629CFE22500717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example-stg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4039891729CFE22500717928 /* Debug */,
+				4039891829CFE22500717928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4039892E29CFE22700717928 /* Build configuration list for PBXNativeTarget "swiftui-combine-mvvm-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4039892F29CFE22700717928 /* Debug */,
+				4039893029CFE22700717928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
