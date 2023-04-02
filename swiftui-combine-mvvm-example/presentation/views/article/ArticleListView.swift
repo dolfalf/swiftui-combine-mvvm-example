@@ -10,6 +10,12 @@ import SwiftUI
 struct ArticleListView: View {
     var body: some View {
         Text("ArticleView")
+            .padding()
+            .background(Color.accentGreen)
+            .foregroundColor(Color.mainColor)
+            .rounded()
+            .shadowed()
+            .overlayWithBorder(2, color: Color.accentBlue)
     }
 }
 

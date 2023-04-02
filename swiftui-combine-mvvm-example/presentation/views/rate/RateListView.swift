@@ -8,21 +8,21 @@
 import SwiftUI
 
 struct RateListView: View {
+    let items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"]
+    
     var body: some View {
-        ZStack {
-            Color.subColor
-
-            VStack {
-                // 共通部品テスト
-                Text("RateView")
-                    .padding()
-                    .background(Color.accentGreen)
-                    .foregroundColor(Color.mainColor)
-                    .rounded()
-                    .shadowed()
-                    .overlayWithBorder(2, color: Color.accentBlue)
+        NavigationView {
+            List(items, id: \.self) { item in
+                RateCellView()
             }
+            .navigationTitle("Rate List")
         }
+        .listStyle(.plain)
+//        List {
+//            ForEach() {
+//                RateCellView()
+//            }
+//        }
     }
 }
 
