@@ -24,6 +24,10 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "2.square.fill")
                 }
+            FirstView()
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                }
         }
     }
 }
