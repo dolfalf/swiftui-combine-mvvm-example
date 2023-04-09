@@ -15,20 +15,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView {
-            RateListView()
-                .tabItem {
-                    Image(systemName:"1.square.fill" )
-                }
-            ArticleListView()
-                .tabItem {
-                    Image(systemName: "2.square.fill")
-                }
-            FirstView()
-                .tabItem {
-                    Image(systemName: "3.square.fill")
-                }
-        }
+        
+        HomeView()
+//        TabView {
+//            RateListView()
+//                .tabItem {
+//                    Image(systemName:"1.square.fill" )
+//                }
+//            ArticleListView()
+//                .tabItem {
+//                    Image(systemName: "2.square.fill")
+//                }
+//            FirstView()
+//                .tabItem {
+//                    Image(systemName: "3.square.fill")
+//                }
+//        }
     }
 }
 

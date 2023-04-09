@@ -76,6 +76,12 @@
 		4039895429D94FA400717928 /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895329D94FA400717928 /* RateCellView.swift */; };
 		4039895529D94FA400717928 /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895329D94FA400717928 /* RateCellView.swift */; };
 		4039895629D94FA400717928 /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895329D94FA400717928 /* RateCellView.swift */; };
+		4039895929E26C5E00717928 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* HomeView.swift */; };
+		4039895A29E26C5E00717928 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* HomeView.swift */; };
+		4039895B29E26C5E00717928 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* HomeView.swift */; };
+		4039895D29E26CAE00717928 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895C29E26CAE00717928 /* MarqueeView.swift */; };
+		4039895E29E26CAE00717928 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895C29E26CAE00717928 /* MarqueeView.swift */; };
+		4039895F29E26CAE00717928 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895C29E26CAE00717928 /* MarqueeView.swift */; };
 		70D84BE229DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
 		70D84BE329DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
 		70D84BE429DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
@@ -143,6 +149,8 @@
 		4039894B29D94D1900717928 /* RateInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateInfoRowView.swift; sourceTree = "<group>"; };
 		4039894F29D94E2500717928 /* RateBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateBoardView.swift; sourceTree = "<group>"; };
 		4039895329D94FA400717928 /* RateCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCellView.swift; sourceTree = "<group>"; };
+		4039895829E26C5E00717928 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4039895C29E26CAE00717928 /* MarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeView.swift; sourceTree = "<group>"; };
 		70D84BE129DBB24A006A1396 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		70D84BE529DBB27C006A1396 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		70D84BE929DBB2B2006A1396 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -271,6 +279,7 @@
 				403988DA29CF149300717928 /* rate */,
 				403988DF29CF171500717928 /* article */,
 				70D84BE029DBB217006A1396 /* sample */,
+				4039895729E26C4300717928 /* home */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -434,6 +443,15 @@
 			children = (
 			);
 			path = datasource;
+			sourceTree = "<group>";
+		};
+		4039895729E26C4300717928 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4039895829E26C5E00717928 /* HomeView.swift */,
+				4039895C29E26CAE00717928 /* MarqueeView.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 		70D84BE029DBB217006A1396 /* sample */ = {
@@ -657,8 +675,10 @@
 				403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */,
 				403988E129CF172700717928 /* ArticleListView.swift in Sources */,
 				4039894C29D94D1900717928 /* RateInfoRowView.swift in Sources */,
+				4039895D29E26CAE00717928 /* MarqueeView.swift in Sources */,
 				403988F429CFD38500717928 /* FontModifier.swift in Sources */,
 				403988ED29CFD0DB00717928 /* RoundedModifier.swift in Sources */,
+				4039895929E26C5E00717928 /* HomeView.swift in Sources */,
 				70D84BE229DBB24A006A1396 /* FirstView.swift in Sources */,
 				403988E829CF1C9B00717928 /* RateTextView.swift in Sources */,
 			);
@@ -704,8 +724,10 @@
 				4039890B29CFE22500717928 /* ArticleListView.swift in Sources */,
 				4039890C29CFE22500717928 /* FontModifier.swift in Sources */,
 				4039894D29D94D1900717928 /* RateInfoRowView.swift in Sources */,
+				4039895E29E26CAE00717928 /* MarqueeView.swift in Sources */,
 				4039890D29CFE22500717928 /* RoundedModifier.swift in Sources */,
 				4039890E29CFE22500717928 /* RateTextView.swift in Sources */,
+				4039895A29E26C5E00717928 /* HomeView.swift in Sources */,
 				70D84BE329DBB24A006A1396 /* FirstView.swift in Sources */,
 				4039893329CFE28D00717928 /* constants.swift in Sources */,
 			);
@@ -734,8 +756,10 @@
 				4039892229CFE22700717928 /* ShadowModifier.swift in Sources */,
 				4039892329CFE22700717928 /* ArticleListView.swift in Sources */,
 				4039894E29D94D1900717928 /* RateInfoRowView.swift in Sources */,
+				4039895F29E26CAE00717928 /* MarqueeView.swift in Sources */,
 				4039892429CFE22700717928 /* FontModifier.swift in Sources */,
 				4039892529CFE22700717928 /* RoundedModifier.swift in Sources */,
+				4039895B29E26C5E00717928 /* HomeView.swift in Sources */,
 				70D84BE429DBB24A006A1396 /* FirstView.swift in Sources */,
 				4039892629CFE22700717928 /* RateTextView.swift in Sources */,
 			);
