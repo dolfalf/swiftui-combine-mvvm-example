@@ -53,42 +53,6 @@ struct MarqueeView: View {
                 }
             }
         }
-    
-//    @State private var animate = false
-//    let animationDuration: Double
-//
-//    var body: some View {
-//        GeometryReader { geometry in
-//            HStack(alignment: .center ,spacing: 8) {
-//                BoardItem(name: "tesla", code: "TSLA", price: "¥345,500", ratio: "(+0.15%))")
-//                BoardItem(name: "amazon", code: "AMZN", price: "¥245,500", ratio: "(-0.15%))")
-//                BoardItem(name: "appole", code: "APPL", price: "¥1,245,500", ratio: "(-0.15%))")
-//                BoardItem(name: "nvidia", code: "NVIA", price: "¥45,500", ratio: "(+7.15%))")
-//            }
-//            .padding()
-//            .offset(x: self.animate ? -geometry.size.width - self.stackWidth() : geometry.size.width)
-//            .onChange(of: self.animate) { _ in
-//                withAnimation(Animation.linear(duration: self.animationDuration).repeatForever(autoreverses: false)) {
-//                    self.animate.toggle()
-//                }
-//            }
-//            .onAppear {
-//                withAnimation(Animation.linear(duration: self.animationDuration).repeatForever(autoreverses: false)) {
-//                    self.animate.toggle()
-//                }
-//            }
-//        }
-//    }
-//
-//    private func stackWidth() -> CGFloat {
-//        let font = UIFont.systemFont(ofSize: 24)
-//        let text = "SwiftUIで複数のビューを含むマーキーを作成しました！"
-//        let textWidth = (text as NSString).size(withAttributes: [NSAttributedString.Key.font: font]).width
-//        let imageWidth: CGFloat = 30
-//        let spacing: CGFloat = 20
-//        let padding: CGFloat = 32
-//        return textWidth + imageWidth * 2 + spacing * 2 + padding
-//    }
 }
 
 struct BoardItem: View {
@@ -126,3 +90,5 @@ struct BoardItem: View {
         }
     }
 }
+
+

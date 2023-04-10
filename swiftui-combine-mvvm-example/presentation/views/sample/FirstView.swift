@@ -15,9 +15,9 @@ struct FirstView: View {
         NavigationView {
             VStack {
                 // 2. Navigation Push, Pop遷移
-//                NavigationLink(destination: FXRateListView()) {
-//                    Text("Go to Detail View")
-//                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Go to Detail View")
+                }
                 // 3. Present遷移
                 Button(action: {
                     isPresented.toggle()

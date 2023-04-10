@@ -97,6 +97,9 @@
 		70D84BF229DBE018006A1396 /* FXRateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF129DBE018006A1396 /* FXRateListView.swift */; };
 		70D84BF329DBE018006A1396 /* FXRateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF129DBE018006A1396 /* FXRateListView.swift */; };
 		70D84BF429DBE018006A1396 /* FXRateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF129DBE018006A1396 /* FXRateListView.swift */; };
+		70D84BF629E3AD7F006A1396 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */; };
+		70D84BF729E3AD7F006A1396 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */; };
+		70D84BF829E3AD7F006A1396 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +159,7 @@
 		70D84BE929DBB2B2006A1396 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		70D84BED29DBB2C4006A1396 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		70D84BF129DBE018006A1396 /* FXRateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXRateListView.swift; sourceTree = "<group>"; };
+		70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,6 +454,7 @@
 			children = (
 				4039895829E26C5E00717928 /* HomeView.swift */,
 				4039895C29E26CAE00717928 /* MarqueeView.swift */,
+				70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -657,6 +662,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D84BEE29DBB2C4006A1396 /* ModalView.swift in Sources */,
+				70D84BF629E3AD7F006A1396 /* PlaygroundView.swift in Sources */,
 				403988B029CF119900717928 /* ContentView.swift in Sources */,
 				4039894429D9434F00717928 /* RateSpreadView.swift in Sources */,
 				70D84BF229DBE018006A1396 /* FXRateListView.swift in Sources */,
@@ -706,6 +712,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D84BEF29DBB2C4006A1396 /* ModalView.swift in Sources */,
+				70D84BF729E3AD7F006A1396 /* PlaygroundView.swift in Sources */,
 				4039890429CFE22500717928 /* ContentView.swift in Sources */,
 				4039894529D9434F00717928 /* RateSpreadView.swift in Sources */,
 				70D84BF329DBE018006A1396 /* FXRateListView.swift in Sources */,
@@ -738,6 +745,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D84BF029DBB2C4006A1396 /* ModalView.swift in Sources */,
+				70D84BF829E3AD7F006A1396 /* PlaygroundView.swift in Sources */,
 				4039891C29CFE22700717928 /* ContentView.swift in Sources */,
 				4039894629D9434F00717928 /* RateSpreadView.swift in Sources */,
 				70D84BF429DBE018006A1396 /* FXRateListView.swift in Sources */,
