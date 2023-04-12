@@ -100,6 +100,12 @@
 		70D84BF629E3AD7F006A1396 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */; };
 		70D84BF729E3AD7F006A1396 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */; };
 		70D84BF829E3AD7F006A1396 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */; };
+		70D84BFA29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF929E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift */; };
+		70D84BFB29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF929E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift */; };
+		70D84BFC29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BF929E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift */; };
+		70D84C0329E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84C0229E525E3006A1396 /* NestedGroupCollectionView.swift */; };
+		70D84C0429E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84C0229E525E3006A1396 /* NestedGroupCollectionView.swift */; };
+		70D84C0529E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84C0229E525E3006A1396 /* NestedGroupCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +166,8 @@
 		70D84BED29DBB2C4006A1396 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		70D84BF129DBE018006A1396 /* FXRateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXRateListView.swift; sourceTree = "<group>"; };
 		70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		70D84BF929E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupCollectionViewControllerWrapper.swift; sourceTree = "<group>"; };
+		70D84C0229E525E3006A1396 /* NestedGroupCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -455,6 +463,8 @@
 				4039895829E26C5E00717928 /* HomeView.swift */,
 				4039895C29E26CAE00717928 /* MarqueeView.swift */,
 				70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */,
+				70D84BF929E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift */,
+				70D84C0229E525E3006A1396 /* NestedGroupCollectionView.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -670,6 +680,7 @@
 				4039894029D93C7B00717928 /* RateCurrencyView.swift in Sources */,
 				4039893C29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				4039894829D9438E00717928 /* RateBeforeDayView.swift in Sources */,
+				70D84C0329E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */,
 				70D84BE629DBB27C006A1396 /* SecondView.swift in Sources */,
 				403988F229CFD1E100717928 /* Style+Extensions.swift in Sources */,
 				403988AE29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
@@ -678,6 +689,7 @@
 				4039890129CFE1E400717928 /* constants.swift in Sources */,
 				4039895429D94FA400717928 /* RateCellView.swift in Sources */,
 				403988DC29CF14A900717928 /* RateListView.swift in Sources */,
+				70D84BFA29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */,
 				403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */,
 				403988E129CF172700717928 /* ArticleListView.swift in Sources */,
 				4039894C29D94D1900717928 /* RateInfoRowView.swift in Sources */,
@@ -720,6 +732,7 @@
 				4039894129D93C7B00717928 /* RateCurrencyView.swift in Sources */,
 				4039893D29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				4039894929D9438E00717928 /* RateBeforeDayView.swift in Sources */,
+				70D84C0429E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */,
 				70D84BE729DBB27C006A1396 /* SecondView.swift in Sources */,
 				4039890529CFE22500717928 /* Style+Extensions.swift in Sources */,
 				4039890629CFE22500717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
@@ -728,6 +741,7 @@
 				4039890929CFE22500717928 /* RateListView.swift in Sources */,
 				4039895529D94FA400717928 /* RateCellView.swift in Sources */,
 				4039890A29CFE22500717928 /* ShadowModifier.swift in Sources */,
+				70D84BFB29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */,
 				4039890B29CFE22500717928 /* ArticleListView.swift in Sources */,
 				4039890C29CFE22500717928 /* FontModifier.swift in Sources */,
 				4039894D29D94D1900717928 /* RateInfoRowView.swift in Sources */,
@@ -753,6 +767,7 @@
 				4039894229D93C7B00717928 /* RateCurrencyView.swift in Sources */,
 				4039893E29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				4039894A29D9438E00717928 /* RateBeforeDayView.swift in Sources */,
+				70D84C0529E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */,
 				70D84BE829DBB27C006A1396 /* SecondView.swift in Sources */,
 				4039891D29CFE22700717928 /* Style+Extensions.swift in Sources */,
 				4039891E29CFE22700717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
@@ -761,6 +776,7 @@
 				4039893629CFE2B600717928 /* constants.swift in Sources */,
 				4039895629D94FA400717928 /* RateCellView.swift in Sources */,
 				4039892129CFE22700717928 /* RateListView.swift in Sources */,
+				70D84BFC29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */,
 				4039892229CFE22700717928 /* ShadowModifier.swift in Sources */,
 				4039892329CFE22700717928 /* ArticleListView.swift in Sources */,
 				4039894E29D94D1900717928 /* RateInfoRowView.swift in Sources */,
