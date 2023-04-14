@@ -145,6 +145,12 @@
 		70CED8C729E94D8C00918D77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C629E94D8C00918D77 /* CustomTabView.swift */; };
 		70CED8C829E94D8C00918D77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C629E94D8C00918D77 /* CustomTabView.swift */; };
 		70CED8C929E94D8C00918D77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C629E94D8C00918D77 /* CustomTabView.swift */; };
+		70CED8CB29E95B8600918D77 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8CA29E95B8600918D77 /* PageControl.swift */; };
+		70CED8CC29E95B8600918D77 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8CA29E95B8600918D77 /* PageControl.swift */; };
+		70CED8CD29E95B8600918D77 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8CA29E95B8600918D77 /* PageControl.swift */; };
+		70CED8CF29E95C3B00918D77 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8CE29E95C3B00918D77 /* PageView.swift */; };
+		70CED8D029E95C3B00918D77 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8CE29E95C3B00918D77 /* PageView.swift */; };
+		70CED8D129E95C3B00918D77 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8CE29E95C3B00918D77 /* PageView.swift */; };
 		70D84BE229DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
 		70D84BE329DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
 		70D84BE429DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
@@ -244,6 +250,8 @@
 		70CED8BE29E7CFF500918D77 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		70CED8C229E7D01900918D77 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		70CED8C629E94D8C00918D77 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		70CED8CA29E95B8600918D77 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		70CED8CE29E95C3B00918D77 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		70D84BE129DBB24A006A1396 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		70D84BE529DBB27C006A1396 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		70D84BE929DBB2B2006A1396 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -415,6 +423,7 @@
 				403988E729CF1C9B00717928 /* RateTextView.swift */,
 				403988E929CF214900717928 /* RateSubTextView.swift */,
 				4039893B29D93AA900717928 /* UIChartRepresentable.swift */,
+				70CED8CA29E95B8600918D77 /* PageControl.swift */,
 			);
 			path = atoms;
 			sourceTree = "<group>";
@@ -574,6 +583,7 @@
 				70CED8B629E7CF8B00918D77 /* ProfileView.swift */,
 				70CED8BE29E7CFF500918D77 /* RegistrationView.swift */,
 				70CED8C629E94D8C00918D77 /* CustomTabView.swift */,
+				70CED8CE29E95C3B00918D77 /* PageView.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";
@@ -788,6 +798,7 @@
 				4039893C29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				70CED8BF29E7CFF500918D77 /* RegistrationView.swift in Sources */,
 				70CED89A29E68A9500918D77 /* SampleDetailViewModel.swift in Sources */,
+				70CED8CB29E95B8600918D77 /* PageControl.swift in Sources */,
 				70CED8B329E7CF6D00918D77 /* ProfileViewModel.swift in Sources */,
 				4039894829D9438E00717928 /* RateBeforeDayView.swift in Sources */,
 				70D84C0329E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */,
@@ -816,6 +827,7 @@
 				70D84BE229DBB24A006A1396 /* FirstView.swift in Sources */,
 				70CED88529E6896900918D77 /* Sample.swift in Sources */,
 				70CED88D29E689C400918D77 /* AnySubscription.swift in Sources */,
+				70CED8CF29E95C3B00918D77 /* PageView.swift in Sources */,
 				403988E829CF1C9B00717928 /* RateTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -861,6 +873,7 @@
 				4039893D29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				70CED8C029E7CFF500918D77 /* RegistrationView.swift in Sources */,
 				70CED89B29E68A9500918D77 /* SampleDetailViewModel.swift in Sources */,
+				70CED8CC29E95B8600918D77 /* PageControl.swift in Sources */,
 				70CED8B429E7CF6D00918D77 /* ProfileViewModel.swift in Sources */,
 				4039894929D9438E00717928 /* RateBeforeDayView.swift in Sources */,
 				70D84C0429E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */,
@@ -889,6 +902,7 @@
 				70D84BE329DBB24A006A1396 /* FirstView.swift in Sources */,
 				70CED88629E6896900918D77 /* Sample.swift in Sources */,
 				70CED88E29E689C400918D77 /* AnySubscription.swift in Sources */,
+				70CED8D029E95C3B00918D77 /* PageView.swift in Sources */,
 				4039893329CFE28D00717928 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -917,6 +931,7 @@
 				4039893E29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				70CED8C129E7CFF500918D77 /* RegistrationView.swift in Sources */,
 				70CED89C29E68A9500918D77 /* SampleDetailViewModel.swift in Sources */,
+				70CED8CD29E95B8600918D77 /* PageControl.swift in Sources */,
 				70CED8B529E7CF6D00918D77 /* ProfileViewModel.swift in Sources */,
 				4039894A29D9438E00717928 /* RateBeforeDayView.swift in Sources */,
 				70D84C0529E525E3006A1396 /* NestedGroupCollectionView.swift in Sources */,
@@ -945,6 +960,7 @@
 				70D84BE429DBB24A006A1396 /* FirstView.swift in Sources */,
 				70CED88729E6896900918D77 /* Sample.swift in Sources */,
 				70CED88F29E689C400918D77 /* AnySubscription.swift in Sources */,
+				70CED8D129E95C3B00918D77 /* PageView.swift in Sources */,
 				4039892629CFE22700717928 /* RateTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

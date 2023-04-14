@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     @StateObject var viewModel: ProfileViewModel
-
+    
     var body: some View {
         VStack {
             TextField("Name", text: $viewModel.profile.name)
