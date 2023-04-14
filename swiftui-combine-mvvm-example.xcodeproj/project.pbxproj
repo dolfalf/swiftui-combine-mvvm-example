@@ -142,6 +142,9 @@
 		70CED8C329E7D01900918D77 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C229E7D01900918D77 /* Member.swift */; };
 		70CED8C429E7D01900918D77 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C229E7D01900918D77 /* Member.swift */; };
 		70CED8C529E7D01900918D77 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C229E7D01900918D77 /* Member.swift */; };
+		70CED8C729E94D8C00918D77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C629E94D8C00918D77 /* CustomTabView.swift */; };
+		70CED8C829E94D8C00918D77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C629E94D8C00918D77 /* CustomTabView.swift */; };
+		70CED8C929E94D8C00918D77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED8C629E94D8C00918D77 /* CustomTabView.swift */; };
 		70D84BE229DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
 		70D84BE329DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
 		70D84BE429DBB24A006A1396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D84BE129DBB24A006A1396 /* FirstView.swift */; };
@@ -240,6 +243,7 @@
 		70CED8BA29E7CFD200918D77 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		70CED8BE29E7CFF500918D77 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		70CED8C229E7D01900918D77 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		70CED8C629E94D8C00918D77 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		70D84BE129DBB24A006A1396 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		70D84BE529DBB27C006A1396 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		70D84BE929DBB2B2006A1396 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -569,6 +573,7 @@
 				70CED8AA29E7BAFB00918D77 /* SampleDetailView.swift */,
 				70CED8B629E7CF8B00918D77 /* ProfileView.swift */,
 				70CED8BE29E7CFF500918D77 /* RegistrationView.swift */,
+				70CED8C629E94D8C00918D77 /* CustomTabView.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";
@@ -797,6 +802,7 @@
 				70CED8C329E7D01900918D77 /* Member.swift in Sources */,
 				70D84BFA29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */,
 				403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */,
+				70CED8C729E94D8C00918D77 /* CustomTabView.swift in Sources */,
 				70CED88929E6898600918D77 /* User.swift in Sources */,
 				403988E129CF172700717928 /* ArticleListView.swift in Sources */,
 				4039894C29D94D1900717928 /* RateInfoRowView.swift in Sources */,
@@ -869,6 +875,7 @@
 				70CED8C429E7D01900918D77 /* Member.swift in Sources */,
 				70D84BFB29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */,
 				4039890B29CFE22500717928 /* ArticleListView.swift in Sources */,
+				70CED8C829E94D8C00918D77 /* CustomTabView.swift in Sources */,
 				70CED88A29E6898600918D77 /* User.swift in Sources */,
 				4039890C29CFE22500717928 /* FontModifier.swift in Sources */,
 				4039894D29D94D1900717928 /* RateInfoRowView.swift in Sources */,
@@ -924,6 +931,7 @@
 				70CED8C529E7D01900918D77 /* Member.swift in Sources */,
 				70D84BFC29E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift in Sources */,
 				4039892229CFE22700717928 /* ShadowModifier.swift in Sources */,
+				70CED8C929E94D8C00918D77 /* CustomTabView.swift in Sources */,
 				70CED88B29E6898600918D77 /* User.swift in Sources */,
 				4039892329CFE22700717928 /* ArticleListView.swift in Sources */,
 				4039894E29D94D1900717928 /* RateInfoRowView.swift in Sources */,
