@@ -36,7 +36,7 @@ struct PageView: View {
                     
                 }
                 
-                PageControl(currentPageIndex: currentPageIndex, numberOfPages: 3)
+                PageControl(currentPageIndex: $currentPageIndex, numberOfPages: 3, tintColor: .gray)
                 
                 HStack {
                     Button {

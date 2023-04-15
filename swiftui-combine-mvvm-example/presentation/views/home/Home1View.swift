@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  Home1View.swift
 //  swiftui-combine-mvvm-example
 //
 //  Created by jaeeun on 2023/04/09.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct Home1View: View {
     var body: some View {
         
         VStack {
@@ -238,8 +238,8 @@ struct HomeAppBar: View {
 }
 
 
-struct HomeView_Previews: PreviewProvider {
+struct Home1View_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        Home1View()
     }
 }

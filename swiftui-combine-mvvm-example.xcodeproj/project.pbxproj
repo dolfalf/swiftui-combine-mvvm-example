@@ -76,12 +76,30 @@
 		4039895429D94FA400717928 /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895329D94FA400717928 /* RateCellView.swift */; };
 		4039895529D94FA400717928 /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895329D94FA400717928 /* RateCellView.swift */; };
 		4039895629D94FA400717928 /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895329D94FA400717928 /* RateCellView.swift */; };
-		4039895929E26C5E00717928 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* HomeView.swift */; };
-		4039895A29E26C5E00717928 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* HomeView.swift */; };
-		4039895B29E26C5E00717928 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* HomeView.swift */; };
+		4039895929E26C5E00717928 /* Home1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* Home1View.swift */; };
+		4039895A29E26C5E00717928 /* Home1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* Home1View.swift */; };
+		4039895B29E26C5E00717928 /* Home1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895829E26C5E00717928 /* Home1View.swift */; };
 		4039895D29E26CAE00717928 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895C29E26CAE00717928 /* MarqueeView.swift */; };
 		4039895E29E26CAE00717928 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895C29E26CAE00717928 /* MarqueeView.swift */; };
 		4039895F29E26CAE00717928 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039895C29E26CAE00717928 /* MarqueeView.swift */; };
+		40E5140A29EA269500153A6D /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5140929EA269500153A6D /* WalkthroughView.swift */; };
+		40E5140B29EA269500153A6D /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5140929EA269500153A6D /* WalkthroughView.swift */; };
+		40E5140C29EA269500153A6D /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5140929EA269500153A6D /* WalkthroughView.swift */; };
+		40E5140E29EA3E6000153A6D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5140D29EA3E6000153A6D /* SignupView.swift */; };
+		40E5140F29EA3E6000153A6D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5140D29EA3E6000153A6D /* SignupView.swift */; };
+		40E5141029EA3E6000153A6D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5140D29EA3E6000153A6D /* SignupView.swift */; };
+		40E5141229EA447D00153A6D /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141129EA447D00153A6D /* UnderlinedTextField.swift */; };
+		40E5141329EA447D00153A6D /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141129EA447D00153A6D /* UnderlinedTextField.swift */; };
+		40E5141429EA447D00153A6D /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141129EA447D00153A6D /* UnderlinedTextField.swift */; };
+		40E5141629EA5DBF00153A6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141529EA5DBF00153A6D /* LoginView.swift */; };
+		40E5141729EA5DBF00153A6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141529EA5DBF00153A6D /* LoginView.swift */; };
+		40E5141829EA5DBF00153A6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141529EA5DBF00153A6D /* LoginView.swift */; };
+		40E5141A29EA5DE600153A6D /* SocialButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141929EA5DE600153A6D /* SocialButtonGroupView.swift */; };
+		40E5141B29EA5DE600153A6D /* SocialButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141929EA5DE600153A6D /* SocialButtonGroupView.swift */; };
+		40E5141C29EA5DE600153A6D /* SocialButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141929EA5DE600153A6D /* SocialButtonGroupView.swift */; };
+		40E5141E29EA5E6600153A6D /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141D29EA5E6600153A6D /* IconButton.swift */; };
+		40E5141F29EA5E6600153A6D /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141D29EA5E6600153A6D /* IconButton.swift */; };
+		40E5142029EA5E6600153A6D /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5141D29EA5E6600153A6D /* IconButton.swift */; };
 		70CED87329E687EB00918D77 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED87229E687EB00918D77 /* APIService.swift */; };
 		70CED87429E687EB00918D77 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED87229E687EB00918D77 /* APIService.swift */; };
 		70CED87529E687EB00918D77 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CED87229E687EB00918D77 /* APIService.swift */; };
@@ -227,8 +245,14 @@
 		4039894B29D94D1900717928 /* RateInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateInfoRowView.swift; sourceTree = "<group>"; };
 		4039894F29D94E2500717928 /* RateBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateBoardView.swift; sourceTree = "<group>"; };
 		4039895329D94FA400717928 /* RateCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCellView.swift; sourceTree = "<group>"; };
-		4039895829E26C5E00717928 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4039895829E26C5E00717928 /* Home1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1View.swift; sourceTree = "<group>"; };
 		4039895C29E26CAE00717928 /* MarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeView.swift; sourceTree = "<group>"; };
+		40E5140929EA269500153A6D /* WalkthroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
+		40E5140D29EA3E6000153A6D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		40E5141129EA447D00153A6D /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		40E5141529EA5DBF00153A6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		40E5141929EA5DE600153A6D /* SocialButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonGroupView.swift; sourceTree = "<group>"; };
+		40E5141D29EA5E6600153A6D /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		70CED87229E687EB00918D77 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		70CED87629E6881600918D77 /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
 		70CED87B29E6889000918D77 /* SampleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRequest.swift; sourceTree = "<group>"; };
@@ -379,6 +403,7 @@
 			isa = PBXGroup;
 			children = (
 				403988AF29CF119900717928 /* ContentView.swift */,
+				40E5140829EA263300153A6D /* bolg */,
 				70CED8A529E7BAB100918D77 /* test */,
 				403988DA29CF149300717928 /* rate */,
 				403988DF29CF171500717928 /* article */,
@@ -424,6 +449,8 @@
 				403988E929CF214900717928 /* RateSubTextView.swift */,
 				4039893B29D93AA900717928 /* UIChartRepresentable.swift */,
 				70CED8CA29E95B8600918D77 /* PageControl.swift */,
+				40E5141129EA447D00153A6D /* UnderlinedTextField.swift */,
+				40E5141D29EA5E6600153A6D /* IconButton.swift */,
 			);
 			path = atoms;
 			sourceTree = "<group>";
@@ -433,6 +460,7 @@
 			children = (
 				4039894B29D94D1900717928 /* RateInfoRowView.swift */,
 				4039894F29D94E2500717928 /* RateBoardView.swift */,
+				40E5141929EA5DE600153A6D /* SocialButtonGroupView.swift */,
 			);
 			path = molecules;
 			sourceTree = "<group>";
@@ -500,13 +528,23 @@
 		4039895729E26C4300717928 /* home */ = {
 			isa = PBXGroup;
 			children = (
-				4039895829E26C5E00717928 /* HomeView.swift */,
+				4039895829E26C5E00717928 /* Home1View.swift */,
 				4039895C29E26CAE00717928 /* MarqueeView.swift */,
 				70D84BF529E3AD7F006A1396 /* PlaygroundView.swift */,
 				70D84BF929E4E4D6006A1396 /* NestedGroupCollectionViewControllerWrapper.swift */,
 				70D84C0229E525E3006A1396 /* NestedGroupCollectionView.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		40E5140829EA263300153A6D /* bolg */ = {
+			isa = PBXGroup;
+			children = (
+				40E5140929EA269500153A6D /* WalkthroughView.swift */,
+				40E5140D29EA3E6000153A6D /* SignupView.swift */,
+				40E5141529EA5DBF00153A6D /* LoginView.swift */,
+			);
+			path = bolg;
 			sourceTree = "<group>";
 		};
 		70CED87029E687C900918D77 /* service */ = {
@@ -786,6 +824,7 @@
 				70D84BF629E3AD7F006A1396 /* PlaygroundView.swift in Sources */,
 				70CED87329E687EB00918D77 /* APIService.swift in Sources */,
 				70CED8AB29E7BAFB00918D77 /* SampleDetailView.swift in Sources */,
+				40E5141629EA5DBF00153A6D /* LoginView.swift in Sources */,
 				70CED89229E68A5000918D77 /* SampleListViewModel.swift in Sources */,
 				70CED8AF29E7CF3F00918D77 /* Profile.swift in Sources */,
 				403988B029CF119900717928 /* ContentView.swift in Sources */,
@@ -794,6 +833,7 @@
 				70CED8BB29E7CFD200918D77 /* RegistrationViewModel.swift in Sources */,
 				70D84BF229DBE018006A1396 /* FXRateListView.swift in Sources */,
 				4039895029D94E2500717928 /* RateBoardView.swift in Sources */,
+				40E5140A29EA269500153A6D /* WalkthroughView.swift in Sources */,
 				4039894029D93C7B00717928 /* RateCurrencyView.swift in Sources */,
 				4039893C29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				70CED8BF29E7CFF500918D77 /* RegistrationView.swift in Sources */,
@@ -805,9 +845,11 @@
 				70D84BE629DBB27C006A1396 /* SecondView.swift in Sources */,
 				403988F229CFD1E100717928 /* Style+Extensions.swift in Sources */,
 				403988AE29CF119900717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
+				40E5141E29EA5E6600153A6D /* IconButton.swift in Sources */,
 				403988EA29CF214900717928 /* RateSubTextView.swift in Sources */,
 				70D84BEA29DBB2B2006A1396 /* DetailView.swift in Sources */,
 				4039890129CFE1E400717928 /* constants.swift in Sources */,
+				40E5141229EA447D00153A6D /* UnderlinedTextField.swift in Sources */,
 				4039895429D94FA400717928 /* RateCellView.swift in Sources */,
 				403988DC29CF14A900717928 /* RateListView.swift in Sources */,
 				70CED8C329E7D01900918D77 /* Member.swift in Sources */,
@@ -815,6 +857,7 @@
 				403988EF29CFD11D00717928 /* ShadowModifier.swift in Sources */,
 				70CED8C729E94D8C00918D77 /* CustomTabView.swift in Sources */,
 				70CED88929E6898600918D77 /* User.swift in Sources */,
+				40E5140E29EA3E6000153A6D /* SignupView.swift in Sources */,
 				403988E129CF172700717928 /* ArticleListView.swift in Sources */,
 				4039894C29D94D1900717928 /* RateInfoRowView.swift in Sources */,
 				70CED89629E68A7A00918D77 /* UnidirectionalDataFlowType.swift in Sources */,
@@ -823,7 +866,8 @@
 				70CED8B729E7CF8B00918D77 /* ProfileView.swift in Sources */,
 				403988F429CFD38500717928 /* FontModifier.swift in Sources */,
 				403988ED29CFD0DB00717928 /* RoundedModifier.swift in Sources */,
-				4039895929E26C5E00717928 /* HomeView.swift in Sources */,
+				4039895929E26C5E00717928 /* Home1View.swift in Sources */,
+				40E5141A29EA5DE600153A6D /* SocialButtonGroupView.swift in Sources */,
 				70D84BE229DBB24A006A1396 /* FirstView.swift in Sources */,
 				70CED88529E6896900918D77 /* Sample.swift in Sources */,
 				70CED88D29E689C400918D77 /* AnySubscription.swift in Sources */,
@@ -861,6 +905,7 @@
 				70D84BF729E3AD7F006A1396 /* PlaygroundView.swift in Sources */,
 				70CED87429E687EB00918D77 /* APIService.swift in Sources */,
 				70CED8AC29E7BAFB00918D77 /* SampleDetailView.swift in Sources */,
+				40E5141729EA5DBF00153A6D /* LoginView.swift in Sources */,
 				70CED89329E68A5000918D77 /* SampleListViewModel.swift in Sources */,
 				70CED8B029E7CF3F00918D77 /* Profile.swift in Sources */,
 				4039890429CFE22500717928 /* ContentView.swift in Sources */,
@@ -869,6 +914,7 @@
 				70CED8BC29E7CFD200918D77 /* RegistrationViewModel.swift in Sources */,
 				70D84BF329DBE018006A1396 /* FXRateListView.swift in Sources */,
 				4039895129D94E2500717928 /* RateBoardView.swift in Sources */,
+				40E5140B29EA269500153A6D /* WalkthroughView.swift in Sources */,
 				4039894129D93C7B00717928 /* RateCurrencyView.swift in Sources */,
 				4039893D29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				70CED8C029E7CFF500918D77 /* RegistrationView.swift in Sources */,
@@ -880,9 +926,11 @@
 				70D84BE729DBB27C006A1396 /* SecondView.swift in Sources */,
 				4039890529CFE22500717928 /* Style+Extensions.swift in Sources */,
 				4039890629CFE22500717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
+				40E5141F29EA5E6600153A6D /* IconButton.swift in Sources */,
 				4039890729CFE22500717928 /* RateSubTextView.swift in Sources */,
 				70D84BEB29DBB2B2006A1396 /* DetailView.swift in Sources */,
 				4039890929CFE22500717928 /* RateListView.swift in Sources */,
+				40E5141329EA447D00153A6D /* UnderlinedTextField.swift in Sources */,
 				4039895529D94FA400717928 /* RateCellView.swift in Sources */,
 				4039890A29CFE22500717928 /* ShadowModifier.swift in Sources */,
 				70CED8C429E7D01900918D77 /* Member.swift in Sources */,
@@ -890,6 +938,7 @@
 				4039890B29CFE22500717928 /* ArticleListView.swift in Sources */,
 				70CED8C829E94D8C00918D77 /* CustomTabView.swift in Sources */,
 				70CED88A29E6898600918D77 /* User.swift in Sources */,
+				40E5140F29EA3E6000153A6D /* SignupView.swift in Sources */,
 				4039890C29CFE22500717928 /* FontModifier.swift in Sources */,
 				4039894D29D94D1900717928 /* RateInfoRowView.swift in Sources */,
 				70CED89729E68A7A00918D77 /* UnidirectionalDataFlowType.swift in Sources */,
@@ -898,7 +947,8 @@
 				70CED8B829E7CF8B00918D77 /* ProfileView.swift in Sources */,
 				4039890D29CFE22500717928 /* RoundedModifier.swift in Sources */,
 				4039890E29CFE22500717928 /* RateTextView.swift in Sources */,
-				4039895A29E26C5E00717928 /* HomeView.swift in Sources */,
+				4039895A29E26C5E00717928 /* Home1View.swift in Sources */,
+				40E5141B29EA5DE600153A6D /* SocialButtonGroupView.swift in Sources */,
 				70D84BE329DBB24A006A1396 /* FirstView.swift in Sources */,
 				70CED88629E6896900918D77 /* Sample.swift in Sources */,
 				70CED88E29E689C400918D77 /* AnySubscription.swift in Sources */,
@@ -919,6 +969,7 @@
 				70D84BF829E3AD7F006A1396 /* PlaygroundView.swift in Sources */,
 				70CED87529E687EB00918D77 /* APIService.swift in Sources */,
 				70CED8AD29E7BAFB00918D77 /* SampleDetailView.swift in Sources */,
+				40E5141829EA5DBF00153A6D /* LoginView.swift in Sources */,
 				70CED89429E68A5000918D77 /* SampleListViewModel.swift in Sources */,
 				70CED8B129E7CF3F00918D77 /* Profile.swift in Sources */,
 				4039891C29CFE22700717928 /* ContentView.swift in Sources */,
@@ -927,6 +978,7 @@
 				70CED8BD29E7CFD200918D77 /* RegistrationViewModel.swift in Sources */,
 				70D84BF429DBE018006A1396 /* FXRateListView.swift in Sources */,
 				4039895229D94E2500717928 /* RateBoardView.swift in Sources */,
+				40E5140C29EA269500153A6D /* WalkthroughView.swift in Sources */,
 				4039894229D93C7B00717928 /* RateCurrencyView.swift in Sources */,
 				4039893E29D93AA900717928 /* UIChartRepresentable.swift in Sources */,
 				70CED8C129E7CFF500918D77 /* RegistrationView.swift in Sources */,
@@ -938,9 +990,11 @@
 				70D84BE829DBB27C006A1396 /* SecondView.swift in Sources */,
 				4039891D29CFE22700717928 /* Style+Extensions.swift in Sources */,
 				4039891E29CFE22700717928 /* swiftui_combine_mvvm_exampleApp.swift in Sources */,
+				40E5142029EA5E6600153A6D /* IconButton.swift in Sources */,
 				4039891F29CFE22700717928 /* RateSubTextView.swift in Sources */,
 				70D84BEC29DBB2B2006A1396 /* DetailView.swift in Sources */,
 				4039893629CFE2B600717928 /* constants.swift in Sources */,
+				40E5141429EA447D00153A6D /* UnderlinedTextField.swift in Sources */,
 				4039895629D94FA400717928 /* RateCellView.swift in Sources */,
 				4039892129CFE22700717928 /* RateListView.swift in Sources */,
 				70CED8C529E7D01900918D77 /* Member.swift in Sources */,
@@ -948,6 +1002,7 @@
 				4039892229CFE22700717928 /* ShadowModifier.swift in Sources */,
 				70CED8C929E94D8C00918D77 /* CustomTabView.swift in Sources */,
 				70CED88B29E6898600918D77 /* User.swift in Sources */,
+				40E5141029EA3E6000153A6D /* SignupView.swift in Sources */,
 				4039892329CFE22700717928 /* ArticleListView.swift in Sources */,
 				4039894E29D94D1900717928 /* RateInfoRowView.swift in Sources */,
 				70CED89829E68A7A00918D77 /* UnidirectionalDataFlowType.swift in Sources */,
@@ -956,7 +1011,8 @@
 				70CED8B929E7CF8B00918D77 /* ProfileView.swift in Sources */,
 				4039892429CFE22700717928 /* FontModifier.swift in Sources */,
 				4039892529CFE22700717928 /* RoundedModifier.swift in Sources */,
-				4039895B29E26C5E00717928 /* HomeView.swift in Sources */,
+				4039895B29E26C5E00717928 /* Home1View.swift in Sources */,
+				40E5141C29EA5DE600153A6D /* SocialButtonGroupView.swift in Sources */,
 				70D84BE429DBB24A006A1396 /* FirstView.swift in Sources */,
 				70CED88729E6896900918D77 /* Sample.swift in Sources */,
 				70CED88F29E689C400918D77 /* AnySubscription.swift in Sources */,
